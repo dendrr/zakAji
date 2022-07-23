@@ -1,0 +1,29 @@
+<div class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__items">
+            <div class="slider__item">
+                <!-- Контент 1 слайда -->
+                <img class="wex-product-thumbnail-img" src="/image/catalog/test.jpg" title="Elf Bar, 1500 затяжек" alt="Elf Bar, 1500 затяжек">
+            </div>
+            <div class="slider__item">
+                <!-- Контент 2 слайда -->
+                <img class="wex-product-thumbnail-img" src="/image/catalog/Elf_Bar_1500_Blueberry2.jpg" title="Elf Bar, 1500 затяжек" alt="Elf Bar, 1500 затяжек">
+            </div>
+        </div>
+    </div>
+    <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // инициализация слайдера
+        new SimpleAdaptiveSlider('.slider', {
+            loop: true,
+            autoplay: false,
+            interval: 5000,
+            swipe: true,
+        });
+    });
+</script>
