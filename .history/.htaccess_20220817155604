@@ -1,0 +1,3 @@
+  AddHandler fcgid-script .html .htm
+  FCGIWrapper /home/clients/login_ftp0/php/5.3/fcgi .html
+  FCGIWrapper /home/clients/login_ftp0/php/5.3/fcgi .htm

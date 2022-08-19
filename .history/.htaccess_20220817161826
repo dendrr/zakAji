@@ -1,0 +1,5 @@
+Options +Includes
+AddType text/html  .htm .html
+AddHandler server-parsed .htm .html
+AddType application/x-httpd-php .html .htm
+AddOutputFilterByType DEFLATE text/html text/htm text/plain text/css text/php    text/javascript application/x-javascript
