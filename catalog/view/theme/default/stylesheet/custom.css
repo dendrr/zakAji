@@ -1356,7 +1356,7 @@ h6 {
 }
 
 .header_container {
-    background-image: url("/image/top_background.jpg");
+    background-image: url("image/top_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1364,7 +1364,7 @@ h6 {
 
 @media only screen and (min-width: 1024px) {
     .header_container {
-        background-image: url("/image/top_background_PC1.jpg");
+        background-image: url("image/top_background_PC1.jpg");
     }
 }
 
@@ -1373,7 +1373,7 @@ h6 {
 }
 
 .wex-headerline-overlay h1 {
-    /* background-image: url("/image/top_background.jpg"); */
+    /* background-image: url("image/top_background.jpg"); */
     display: block;
     position: relative;
     text-align: center;
@@ -3905,7 +3905,7 @@ margin-top: 40px;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Обратная связь ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .fast-clearance-content {
-    background-image: url("/image/call-back-bg.jpg");
+    background-image: url("image/call-back-bg.jpg");
     background-size: cover;
     background-position-y: 29%;
     border-radius: 12px;
